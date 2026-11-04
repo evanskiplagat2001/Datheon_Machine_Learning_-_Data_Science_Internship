@@ -79,6 +79,91 @@ The notebook includes:
 
 
 
+# Datheon Machine Learning & Data Science Internship
 
+## TASK 2: Real Estate Housing Price Prediction (Ridge & Lasso Regression)
+
+This project is part of the Datheon Machine Learning & Data Science Internship.
+
+### Project Overview
+
+This task implements a supervised regression pipeline to predict real estate housing prices using the California Housing dataset.
+
+The project covers:
+
+- Data loading and exploration using Pandas
+- Exploratory data analysis and visualization
+- Data preprocessing and feature preparation
+- Multicollinearity assessment using Variance Inflation Factor (VIF)
+- Ordinary Least Squares (OLS) regression
+- Ridge Regression using L2 regularization
+- Lasso Regression using L1 regularization
+- Hyperparameter tuning
+- RMSE, MAE, and R² evaluation
+- Model performance comparison
+
+### Dataset
+
+The project uses the California Housing dataset.
+
+The dataset contains housing-related features, including:
+
+- median_income
+- housing_median_age
+- total_rooms
+- total_bedrooms
+- population
+- households
+- latitude
+- longitude
+
+The target variable is the median house value.
+
+### Models
+
+Three regression models were trained and evaluated:
+
+1. Ordinary Least Squares (OLS) Regression
+2. Ridge Regression
+3. Lasso Regression
+
+### Results
+
+One reported notebook run produced the following results:
+
+| Model | RMSE | MAE | R² |
+|---|---:|---:|---:|
+| OLS Regression | 69,047.93 | 49,376.47 | 0.6362 |
+| Ridge Regression (α = 1) | 69,055.96 | 49,382.62 | 0.6361 |
+| Lasso Regression (α = 1) | 69,048.99 | 49,377.33 | 0.6362 |
+
+A separate notebook run reported:
+
+| Model | RMSE | MAE | R² |
+|---|---:|---:|---:|
+| OLS Regression | 69,126.81 | 49,645.51 | 0.6353 |
+| Ridge Regression | 69,134.74 | 49,652.16 | 0.6353 |
+| Tuned Lasso Regression | 69,742.36 | 49,957.73 | 0.6288 |
+
+The metric tables represent separate notebook runs.
+
+### Visualizations
+
+The notebook includes exploratory visualizations and analysis of housing features, along with model evaluation and multicollinearity analysis.
+
+### Project File
+
+`Machine Learning & Data Science Internship.ipynb`
+
+### Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Statsmodels
+- Seaborn
+- Matplotlib
+- Jupyter Notebook
 
 
